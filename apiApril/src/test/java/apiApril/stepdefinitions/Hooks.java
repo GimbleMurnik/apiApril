@@ -19,6 +19,6 @@ public class Hooks {
     @After
     public void afterHook(){
         deleteList(TestCaseContext.getList().getId());
-        updateBoardInfo(BOARD_NAME, TestCaseContext.getBoard().getId())
+        updateBoardInfo(BOARD_NAME, TestCaseContext.getBoard().getId());
     }
 }

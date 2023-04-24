@@ -56,7 +56,7 @@ public class TrelloSteps {
                 .as("We check that the list was created with correct name")
                 .isEqualTo(listName);
 
-        TestCaseContext.getScenario().log(list.getId())
+        TestCaseContext.getScenario().log(list.getId());
     }
 
 }
